@@ -1,0 +1,21 @@
+# --- TEIXIDO-BOREAL FOREST (TBF) DEPENDENCIES ---
+# TAH Paradigm v1.0 | Machine-Verified Formalism
+
+# Core Numerical Computing
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Artificial Intelligence & Manifold Learning
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Data Analysis & Astronomical Parsing
+pandas>=2.0.0
+scikit-learn>=1.2.0
+
+# Visualization of the Teixido Envelope
+matplotlib>=3.7.0
+
+# Professional Hardware Audit Tools
+# (Optional: for measuring energy complexity)
+# pyJoules>=0.5.0
