@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you utilize this architecture or the Teixido Constant in your research, please cite it as follows."
+authors:
+  - family-names: Teixido
+    given-names: John V.
+    affiliation: Liberty University
+    email: jvteixido@liberty.edu
+title: "Teixido-Boreal Forest: Antifragile Tropical Neural Networks via Topological Analytical Homeostasis"
+version: 1.0.0
+doi: 10.5281/zenodo.XXXXX  # You get this once you link GitHub to Zenodo
+date-released: 2025-12-20
+url: "https://github.com/johnvteixido/Teixido-Boreal-Forest"
+keywords:
+  - "Topological Analytical Homeostasis"
+  - "Teixido Envelope"
+  - "Tropical Neural Networks"
+  - "Antifragility"
+  - "Sparse Machine Learning"
+  - "Domination Polynomials"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Teixido
+      given-names: John V.
+  journal: "arXiv preprint math.CO/cs.LG"
+  title: "Analytic Limits of the Teixido Envelope and Domination Root Monotonicity for Trees and Sparse Graphs"
+  year: 2025
