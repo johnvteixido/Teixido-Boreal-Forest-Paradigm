@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="Teixido_Boreal_Logo.png" width="600" alt="Teixido-Boreal Logo">
+</p>
+
 # Teixido-Boreal Forest (TBF): Antifragile Tropical Neural Networks
 
 **Topological Analytical Homeostasis (TAH)** is a new computational paradigm that regulates Artificial Intelligence via the geometric roots of graph polynomials. By aligning sparse manifolds with the **Teixido Envelope**, TBF achieves intrinsic stability and noise immunity.
