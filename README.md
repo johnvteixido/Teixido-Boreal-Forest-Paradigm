@@ -1,5 +1,7 @@
 <p align="center">
-  <img src="Teixido_Boreal_Logo.png" width="600" alt="Teixido-Boreal Logo">
+  <img src="Teixido_Boreal_Logo.png" width="850" alt="Teixido-Boreal Logo">
+  <br>
+  <i><b>"Structural Intelligence: Regulating Artificial Neural Networks via Geometric Homeostasis"</b></i>
 </p>
 
 # Teixido-Boreal Forest (TBF): Antifragile Tropical Neural Networks
