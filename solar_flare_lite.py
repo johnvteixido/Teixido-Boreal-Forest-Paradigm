@@ -37,10 +37,13 @@ def run_solar_demo():
     noise_mask = torch.rand(noisy_sample.shape) < 0.2
     noisy_sample[noise_mask] *= 10.0 
 
-    # 4. Log-Topological Normalization (LTN)
-    # In a production environment, this aligns data with the Teixido Envelope
+    # 4. Signal Normalization (Public Reference)
+    # PUBLIC VERSION: Standard linear range scaling. 
+    # Note: High-performance Log-Topological Normalization (LTN) algorithms 
+    # are reserved for the Enterprise Edition to ensure Envelope Alignment.
     def ltn_transform(data):
-        return torch.sign(data) * torch.log1p(torch.abs(data))
+        # Standard normalization
+        return data / (torch.max(torch.abs(data)) + 1e-6)
 
     # 5. Execute Tropical Inference
     model.eval()
