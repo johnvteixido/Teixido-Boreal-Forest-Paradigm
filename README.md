@@ -50,54 +50,36 @@ Validated against industry standards on high-stress datasets:
 
 ---
 
-## 📂 Repository Structure
-
-*   **`/theory`**: SageMath scripts verifying the analytic limits of domination roots and the Monotonicity Principle.
-*   **`/core`**: PyTorch reference implementation of the TBF layer and **Fast-Kernel** (0.04s latency) gather logic.
-*   **`/benchmarks`**: Reproduction scripts for the Resilience Gap and Solar Flare demos.
-*   **`/hardware`**: Specifications for the **Teixido-ISA**, Verilog testbench logs, and gate-complexity audits.
+> **Note:** The **Enterprise Edition** (required to reproduce the 1.1470 Antifragility ratio and +17.5dB RF Gain) utilizes proprietary Log-Topological Normalization kernels and optimized Star-Limit Threshold tensors ($\epsilon$).
 
 ---
 
-## 🛠 Usage & Installation
+## ⚖️ Licensing & Intellectual Property Governance
 
-The public reference kernel demonstrates the topological structure and speed using standard arithmetic mean consensus and linear scaling.
+This repository utilizes a **Dual-Licensing Structure** to ensure academic transparency while protecting commercial intellectual property.
 
-```bash
-git clone https://github.com/johnvteixido/Teixido-Boreal-Forest-Paradigm.git
-pip install -r requirements.txt
-python benchmarks/resilience_gap.py
+### 📄 Documentation & Papers
+All academic manuscripts, diagrams, PDF reports, and theoretical descriptions contained herein are licensed under:  
+**[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/)**
 
-Note: The Enterprise Edition (required to reproduce the 1.1470 Antifragility ratio and +17.5dB RF Gain) utilizes proprietary Log-Topological Normalization kernels and optimized Star-Limit Threshold tensors (ϵ).
+*   **Permitted:** Academic research, non-profit educational use, and peer review.
+*   **Prohibited:** Reproduction in commercial whitepapers, use in marketing materials, or integration into proprietary hardware documentation without a commercial license.
 
-⚖️ Licensing & Intellectual Property Governance
+### 💻 Software & Source Code
+All scripts, kernels, model definitions, and Verilog/RTL code in this repository are licensed under:  
+**[GNU Affero General Public License v3.0 or later (AGPL-3.0)](https://www.gnu.org/licenses/agpl-3.0.en.html)**
 
-This repository utilizes a Dual-Licensing Structure to ensure academic transparency while protecting commercial intellectual property.
-📄 Documentation & Papers
+*   **The "Cloud Loophole" Clause:** Per AGPL-3.0 Section 13, any use of this software over a computer network (SaaS, Cloud AI APIs, Internal Corporate Servers) requires you to make the full source code of your service available to users.
+*   **Incompatibility:** This license is incompatible with closed-source proprietary stacks (e.g., CUDA drivers) unless a commercial exemption is purchased.
 
-All academic manuscripts, diagrams, PDF reports, and theoretical descriptions contained herein are licensed under:
-Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
+---
 
-    Permitted: Academic research, non-profit educational use, and peer review.
+### ⚠️ Trade Secrets & Patent Notice
+**No Patent Rights Granted:** The publication of this source code and associated research papers does not grant any patent rights, express or implied, to the **Teixido-Boreal Architecture**, **Teixido-ISA**, or **Topological Inhibitory Gating (TIG)** mechanisms.
 
-    Prohibited: Reproduction in commercial whitepapers, use in marketing materials, or integration into proprietary hardware documentation without a commercial license.
+**Trade Secret Preservation:** The specific hyperparameter tensors, optimized $\epsilon$ thresholds, and "Golden Graph" adjacency matrices used to achieve the **1.1470 Antifragility Ratio** are retained as trade secrets within the **Teixido-Boreal Enterprise Edition**.
 
-💻 Software & Source Code
+### 💼 Commercial Licensing
+To utilize this technology in proprietary hardware (ASIC/FPGA), closed-source commercial software, or for-profit services without AGPL restrictions: **You must obtain a Commercial License.**
 
-All scripts, kernels, model definitions, and Verilog/RTL code in this repository are licensed under:
-GNU Affero General Public License v3.0 or later (AGPL-3.0)
-
-    The "Cloud Loophole" Clause: Per AGPL-3.0 Section 13, any use of this software over a computer network (SaaS, Cloud AI APIs, Internal Corporate Servers) requires you to make the full source code of your service available to users.
-
-    Incompatibility: This license is incompatible with closed-source proprietary stacks (e.g., CUDA drivers) unless a commercial exemption is purchased.
-
-⚠️ Trade Secrets & Patent Notice
-
-No Patent Rights Granted: The publication of this source code and associated research papers does not grant any patent rights, express or implied, to the Teixido-Boreal Architecture, Teixido-ISA, or Topological Inhibitory Gating (TIG) mechanisms.
-
-Trade Secret Preservation: The specific hyperparameter tensors, optimized ϵ thresholds, and "Golden Graph" adjacency matrices used to achieve the 1.1470 Antifragility Ratio are retained as trade secrets within the Teixido-Boreal Enterprise Edition.
-💼 Commercial Licensing
-
-To utilize this technology in proprietary hardware (ASIC/FPGA), closed-source commercial software, or for-profit services without AGPL restrictions: You must obtain a Commercial License.
-
-Commercial License Inquiries: jvteixido@liberty.edu
+**Commercial License Inquiries:** [jvteixido@liberty.edu](mailto:jvteixido@liberty.edu)
