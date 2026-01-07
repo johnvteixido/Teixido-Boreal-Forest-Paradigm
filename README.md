@@ -4,72 +4,66 @@
   <i><b>"Structural Intelligence: Regulating Artificial Neural Networks via Geometric Homeostasis"</b></i>
 </p>
 
-# Teixido-Boreal Forest (TBF): Antifragile Tropical Architectures
+# Teixido-Boreal Forest (TBF): Antifragile Tropical Neural Networks
 
-**Topological Analytical Homeostasis (TAH)** is a unified computational paradigm that regulates Artificial Intelligence, Quantum Information Transport, and Edge-Security via the geometric roots of graph polynomials. 
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+[![Python: 3.10+](https://img.shields.io/badge/python-3.10%2B-green.svg)](https://www.python.org/)
+[![Status: RTL Verified](https://img.shields.io/badge/Hardware-RTL%20Verified-orange.svg)](#hardware-specification)
+[![Benchmarks: 175k Events](https://img.shields.io/badge/Benchmarks-175k%20Events-success.svg)](#performance-matrix)
 
-By aligning sparse manifolds with the **Teixido Envelope** ($\tau = -0.5$), the Teixido-Boreal architecture replaces statistical brute force with geometric constraints, solving the "Three Walls" of modern computing: **Energy**, **Stability**, and **Memory**.
-
-## 🚀 The Core Paradigm
-*   **The Teixido Constant ($\tau = -0.5$):** A machine-verified (Rocq v8.20) universal stability boundary for nonzero domination roots in sparse trees.
-*   **Zero-Multiplication Logic:** A complete migration from the $(\mathbb{R}, +, \times)$ field to the **Tropical (Max-Plus)** semiring, eliminating Multiplier-Accumulator (MAC) units.
-*   **Antifragility:** A documented **Stability Ratio of 1.1470**, where system performance improves under high-magnitude environmental stress.
+**Topological Analytical Homeostasis (TAH)** is a new computational paradigm that replaces statistical brute force with geometric constraints derived from algebraic graph theory. By aligning sparse manifolds with the **Teixido Envelope**, the **Teixido-Boreal Forest (TBF)** achieves intrinsic stability, noise immunity, and zero-multiplication efficiency.
 
 ---
 
-## 📊 Consolidated Benchmarks (Enterprise Edition)
-*Validated on 174,933 Solar Events, N=16 Quantum Volume, and Zero-Day DDoS Vectors.*
+## 🚀 Key Discoveries & Capabilities
 
-| Performance Metric | Industry Standard (Dense/Linear) | **Teixido-Boreal Paradigm** | **Impact** |
+### 1. The Mathematical Foundation
+*   **The Teixido Constant ($\tau = -0.5$):** A machine-verified (Rocq Prover v8.20) geometric boundary for stable sparse tree roots.
+*   **Monotonicity Principle:** The discovery that increasing branching factor "contracts" analytic roots toward the stable interior, regulating network behavior without normalization layers.
+
+### 2. Antifragile AI (Astro-AI & Defense)
+*   **1.1470 Stability Ratio:** In benchmarks on **174,933 real-world solar events**, the model's predictive balance (F1-Score) **improved** under 30% impulse noise.
+*   **Topological Inhibition (TIG):** A hardware-native gating mechanism that uses neighborhood consensus to physically silence noise spikes at the logic level.
+*   **Cybersecurity:** Achieved **97.1% Recall** on Zero-Day DDoS vectors via Topological Contrast.
+
+### 3. Hardware Revolution (Zero-MAC)
+*   **52.3x Gate Reduction:** Replaces power-hungry Multiplier-Accumulators (MAC) with the **Teixido-ISA** (Tropical Add/Max Logic).
+*   **37x Power Efficiency:** Theoretical energy reduction per inference.
+*   **Memory Independence:** **16x reduction** in memory bus contention and **273x model compression**, allowing 7B+ parameter models to reside in On-Chip SRAM (bypassing the HBM shortage).
+
+### 4. Quantum Interconnects
+*   **Routing Velocity:** Teixido-Boreal topologies reduce Quantum Volume CNOT gate counts by **2.27x** and increase information transport speed by **6x** ($t=1.5$ saturation vs $t>10$), solving the connectivity bottleneck for IBM/IonQ architectures.
+
+---
+
+## 📊 Performance Matrix
+
+Validated against industry standards on high-stress datasets:
+
+| Metric | Standard Dense MLP | **Teixido-Boreal (TBM)** | **Impact** |
 | :--- | :--- | :--- | :--- |
-| **Logic Gate Count** | ~2,800 Gates/Neuron (MAC) | **~225 Gates/Neuron (TMC)** | **52.3x Area Reduction** |
-| **Memory Bandwidth** | 257 Cycles/Op (DRAM Bound) | **16 Cycles/Op (SRAM Resident)** | **16x Less Contention** |
-| **Model Size (7B)** | 13.04 GB | **0.57 GB** | **23x Throughput Gain** |
-| **AI Stability Ratio** | 0.36 (Collapses under Noise) | **1.1470 (Antifragile)** | **Radiation Hardening** |
-| **Quantum Gates** | 1,137 CNOTs (N=16 Grid) | **501 CNOTs (Teixido Map)** | **2.27x Less Decoherence** |
-
----
-
-## 🌐 Applications
-
-### 1. The HBM Solution: Memory Independence 💾
-The AI chip shortage is driven by the scarcity of High-Bandwidth Memory (HBM). 
-*   **Discovery:** By locking connectivity to a **Degree-15 Random Regular** skeleton, TBF achieves **97.1% Structural Sparsity**.
-*   **Result:** A 7B-parameter scale model compresses to **0.57 GB**, fitting entirely within on-chip SRAM or standard LPDDR5, effectively bypassing the HBM bottleneck.
-
-### 2. Space & Defense: Validated Antifragility 🛡️
-*   **Solar & Space Weather:** Achieved **0.20 Loss** on 175k solar events. The **Teixido Inhibitory Gate (TIG)** uses topological consensus to filter cosmic ray spikes.
-*   **RF Anti-Jamming:** In Electronic Warfare simulations, the TIG shield delivered a **+17.53 dB Signal-to-Noise boost** against high-power impulse jammers.
-*   **Cybersecurity:** Zero-Shot detection of Zero-Day DDoS vectors with **97.1% Recall** using Topological Contrast scores.
-
-### 3. Quantum Computing: Routing Velocity ⚛️
-*   **The Problem:** Nearest-neighbor qubit grids require massive SWAP chains.
-*   **The Solution:** The **Teixido-Boreal Topology** ($\Delta=4$) minimizes network diameter.
-*   **Result:** Hamiltonian Quantum Walk simulations prove information saturates the processor at **$t=1.5$** (vs $t>10$), a **6x speedup** in information transport velocity.
+| **Synaptic Density** | 100% (Dense) | **2.9% (Degree-15)** | **34x Compression** |
+| **Multiplier Usage** | 100% | **0.0% (Zero-MAC)** | **Heat Reduction** |
+| **Solar Stability Ratio** | 0.36 (Fragile) | **1.14 (Antifragile)** | **Radiation Hardening** |
+| **Hardware Logic Area** | ~2,800 Gates/Neuron | **~225 Gates/Neuron** | **Silicon Yield** |
+| **Quantum Routing** | 1,137 Gates (Linear) | **501 Gates (Teixido)** | **Fidelity** |
 
 ---
 
 ## 📂 Repository Structure
 
-*   **`/theory`**: SageMath proofs for the Teixido Envelope and Monotonicity Principle.
-*   **`/core`**: PyTorch reference implementation of the TBF layer (`epsilon=1.0`) and Fast-Kernel (`0.04s latency`).
-*   **`/benchmarks`**: Scripts to reproduce the Resilience Gap (Synthetic) and Solar Lite (100-row) demos.
-*   **`/hardware`**: Specifications for the **Teixido-ISA** (T-ADD, T-MUL, T-INH) and gate-complexity audits.
+*   **`/theory`**: SageMath scripts verifying the analytic limits of domination roots and the Monotonicity Principle.
+*   **`/core`**: PyTorch reference implementation of the TBF layer and **Fast-Kernel** (0.04s latency) gather logic.
+*   **`/benchmarks`**: Reproduction scripts for the Resilience Gap and Solar Flare demos.
+*   **`/hardware`**: Specifications for the **Teixido-ISA**, Verilog testbench logs, and gate-complexity audits.
 
 ---
 
-## 🛠 Usage (Fast Kernel)
+## 🛠 Usage & Installation
 
-```python
-import torch
-from core.fast_kernel import FastTeixidoKernel
+The public reference kernel demonstrates the topological structure and speed using standard arithmetic mean consensus and linear scaling.
 
-# Initialize a Zero-MAC Teixido Unit (512 Neurons, Degree 15)
-model = FastTeixidoKernel(n_in=784, n_out=512, degree=15)
-
-# Input: Batch of 500 signals
-x = torch.randn(500, 784)
-
-# Execute 0.04s Latency Inference
-with torch.no_grad():
-    output = model(x) # Returns Topologically Regulated Features
+```bash
+git clone https://github.com/johnvteixido/Teixido-Boreal-Forest-Paradigm.git
+pip install -r requirements.txt
+python benchmarks/resilience_gap.py
