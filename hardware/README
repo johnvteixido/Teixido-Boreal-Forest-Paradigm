@@ -1,0 +1,4 @@
+### 🔌 The "Interconnect" Physics Proof
+Simulations of physical chip layout (Manhattan Geometry) demonstrate that the Teixido-Boreal Topology reduces the total wire length required for signal propagation by **165x** compared to dense architectures. This eliminates the primary source of heat (wire capacitance) in modern large-scale accelerators.
+
+![Geometry vs Energy](geometry_vs_energy_proof.png)
