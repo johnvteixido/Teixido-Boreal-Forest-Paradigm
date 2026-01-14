@@ -1,21 +1,29 @@
 # --- TEIXIDO-BOREAL FOREST (TBF) DEPENDENCIES ---
-# TAH Paradigm v1.0 | Machine-Verified Formalism
+# Paradigm: Topological Analytical Homeostasis (TAH)
+# Validated Environment: Python 3.10+
 
-# Core Numerical Computing
-numpy>=1.24.0
-scipy>=1.10.0
-
-# Artificial Intelligence & Manifold Learning
+# 1. CORE AI & TENSOR LOGIC
+# Required for the Tropical (Max-Plus) kernels and Boreal Unit classes.
 torch>=2.0.0
 torchvision>=0.15.0
 
-# Data Analysis & Astronomical Parsing
-pandas>=2.0.0
-scikit-learn>=1.2.0
+# 2. NUMERICAL & ANALYTIC SOLVERS
+# Required for determining the Teixido Constant and BKW Theorem limits.
+numpy>=1.24.0
+scipy>=1.10.0
 
-# Visualization of the Teixido Envelope
+# 3. GRAPH THEORY & TOPOLOGY
+# Required for generating the Degree-15 Random Regular Skeletons.
+networkx>=3.0
+
+# 4. DATA HANDLING
+# Required for ingesting Solar Flare events and log-normalization.
+pandas>=2.0.0
+
+# 5. VISUALIZATION & PROOFS
+# Required to generate the 'Blue Cloud' and 'Antifragility' plots.
 matplotlib>=3.7.0
 
-# Professional Hardware Audit Tools
-# (Optional: for measuring energy complexity)
-# pyJoules>=0.5.0
+# 6. OPTIONAL / DEV TOOLS
+# Used for hardware audit scripts (Gate counting).
+# (No external dependencies for basic gate audit, uses standard math lib)
