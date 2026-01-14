@@ -24,6 +24,6 @@ pandas>=2.0.0
 # Required to generate the 'Blue Cloud' and 'Antifragility' plots.
 matplotlib>=3.7.0
 
-# 6. OPTIONAL / DEV TOOLS
+# 6. TOOLS
 # Used for hardware audit scripts (Gate counting).
-# (No external dependencies for basic gate audit, uses standard math lib)
+# (No external dependencies for basic gate audit, uses standard math lib, Verilog)
