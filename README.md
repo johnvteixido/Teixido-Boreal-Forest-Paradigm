@@ -50,12 +50,10 @@ Validated against industry standards on high-stress datasets:
 
 ---
 
-### 🔌 The "Interconnect" Physics Proof
+## 🔌 The "Interconnect" Physics Proof
 Simulations of physical chip layout (Manhattan Geometry) demonstrate that the Teixido-Boreal Topology reduces the total wire length required for signal propagation by **165x** compared to dense architectures. This eliminates the primary source of heat (wire capacitance) in modern large-scale accelerators.
 
-![Geometry vs Energy](geometry_vs_energy_proof.png)
-
----
+![Geometry vs Energy Proof](geometry_vs_energy_proof.png)
 
 > **Note:** The **Enterprise Edition** (required to reproduce the 1.1470 Antifragility ratio and +17.5dB RF Gain) utilizes proprietary Log-Topological Normalization kernels and optimized Star-Limit Threshold tensors ($\epsilon$).
 
@@ -84,7 +82,7 @@ All scripts, kernels, model definitions, and Verilog/RTL code in this repository
 ### ⚠️ Trade Secrets & Patent Notice
 **No Patent Rights Granted:** The publication of this source code and associated research papers does not grant any patent rights, express or implied, to the **Teixido-Boreal Architecture**, **Teixido-ISA**, or **Topological Inhibitory Gating (TIG)** mechanisms.
 
-**Trade Secret Preservation:** The specific hyperparameter tensors, optimized $\epsilon$ thresholds, and "Golden Graph" adjacency matrices used to achieve the **1.1470 Antifragility Ratio** are retained as trade secrets within the **Teixido-Boreal Enterprise Edition**.
+**Trade Secret Preservation:** The specific hyperparameter tensors (Star-Limit thresholds $\epsilon$), optimized Log-Topological Normalization kernels, and Golden Graph adjacency matrices used to achieve the **1.1470 Antifragility Ratio** are retained as trade secrets within the **Teixido-Boreal Enterprise Edition**.
 
 ### 💼 Commercial Licensing
 To utilize this technology in proprietary hardware (ASIC/FPGA), closed-source commercial software, or for-profit services without AGPL restrictions: **You must obtain a Commercial License.**
