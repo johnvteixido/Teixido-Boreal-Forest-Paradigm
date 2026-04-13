@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Capability Statement — Teixido-Boreal Forest Paradigm</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    @page {
+      size: letter portrait;
+      margin: 0;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #ffffff;
+      color: #0a0f1e;
+      width: 8.5in;
+      height: 11in;
+      max-height: 11in;
+      overflow: hidden;
+      print-color-adjust: exact;
+      -webkit-print-color-adjust: exact;
+    }
+
+    /* ── HEADER BAND ── */
+    .header {
+      background: linear-gradient(135deg, #050d1f 0%, #0d2240 55%, #0a3355 100%);
+      padding: 22px 32px 18px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 3px solid #00d4c8;
+    }
+
+    .header-left { display: flex; align-items: center; gap: 16px; }
+
+    .logo-badge {
+      width: 56px; height: 56px;
+      background: linear-gradient(135deg, #00d4c8, #0099ff);
+      border-radius: 10px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 22px;
+      font-family: 'Roboto Mono', monospace;
+      color: #ffffff;
+      font-weight: 700;
+      letter-spacing: -1px;
+      flex-shrink: 0;
+    }
+
+    .header-title h1 {
+      font-size: 18px;
+      font-weight: 800;
+      color: #ffffff;
+      letter-spacing: 0.5px;
+      line-height: 1.1;
+    }
+    .header-title p {
+      font-size: 10px;
+      color: #00d4c8;
+      font-weight: 500;
+      margin-top: 3px;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+    }
+
+    .header-right { text-align: right; }
+    .header-right .tag {
+      display: inline-block;
+      background: rgba(0,212,200,0.15);
+      border: 1px solid #00d4c8;
+      color: #00d4c8;
+      font-size: 8.5px;
+      font-weight: 600;
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+      padding: 3px 8px;
+      border-radius: 3px;
+      margin-bottom: 4px;
+    }
+    .header-right p {
+      font-size: 9px;
+      color: #8fafc8;
+      line-height: 1.6;
+    }
+    .header-right a { color: #00d4c8; text-decoration: none; }
+
+    /* ── INTRO BAR ── */
+    .intro-bar {
+      background: #f0f7ff;
+      border-left: 4px solid #00d4c8;
+      padding: 9px 32px;
+      font-size: 10.5px;
+      color: #1a2a3a;
+      line-height: 1.5;
+    }
+    .intro-bar strong { color: #0d2240; }
+
+    /* ── BODY GRID ── */
+    .body { display: grid; grid-template-columns: 1fr 1fr; gap: 0; }
+
+    .col { padding: 16px 20px; }
+    .col:first-child { border-right: 1px solid #e4ecf4; }
+
+    .section-title {
+      font-size: 8px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #0099ff;
+      margin-bottom: 9px;
+      padding-bottom: 5px;
+      border-bottom: 1px solid #e4ecf4;
+    }
+
+    /* ── METRIC GRID ── */
+    .metrics {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 7px;
+      margin-bottom: 14px;
+    }
+
+    .metric-card {
+      background: linear-gradient(135deg, #050d1f, #0d2240);
+      border-radius: 6px;
+      padding: 9px 10px;
+      border: 1px solid #1a3a5c;
+    }
+
+    .metric-card .val {
+      font-size: 20px;
+      font-weight: 800;
+      color: #00d4c8;
+      line-height: 1;
+      font-family: 'Roboto Mono', monospace;
+    }
+    .metric-card .unit {
+      font-size: 10px;
+      color: #00d4c8;
+      font-weight: 700;
+    }
+    .metric-card .desc {
+      font-size: 8.5px;
+      color: #8fafc8;
+      margin-top: 3px;
+      line-height: 1.3;
+    }
+
+    /* ── MOSAIC ALIGNMENT TABLE ── */
+    .align-table { width: 100%; border-collapse: collapse; font-size: 9px; margin-bottom: 14px; }
+    .align-table th {
+      background: #0d2240;
+      color: #00d4c8;
+      font-weight: 600;
+      text-align: left;
+      padding: 5px 8px;
+      font-size: 8px;
+      letter-spacing: 0.5px;
+    }
+    .align-table td {
+      padding: 5px 8px;
+      border-bottom: 1px solid #eaf0f8;
+      line-height: 1.3;
+      color: #1a2a3a;
+      vertical-align: top;
+    }
+    .align-table tr:nth-child(even) td { background: #f7fafd; }
+    .align-table .check { color: #00b894; font-weight: 700; }
+
+    /* ── LICENSE TIERS ── */
+    .license-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; margin-bottom: 12px; }
+    .license-card {
+      border: 1px solid #d0dde8;
+      border-radius: 5px;
+      padding: 8px 9px;
+    }
+    .license-card.highlight {
+      border-color: #00d4c8;
+      background: #f0fffe;
+    }
+    .license-card .lt {
+      font-size: 8px;
+      font-weight: 700;
+      color: #0d2240;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      margin-bottom: 3px;
+    }
+    .license-card.highlight .lt { color: #007a72; }
+    .license-card .ld {
+      font-size: 8px;
+      color: #4a6070;
+      line-height: 1.4;
+    }
+
+    /* ── CORE TECH ── */
+    .tech-list { list-style: none; margin-bottom: 12px; }
+    .tech-list li {
+      font-size: 9px;
+      color: #1a2a3a;
+      padding: 4px 0;
+      border-bottom: 1px dashed #e0eaf2;
+      display: flex;
+      gap: 6px;
+      line-height: 1.4;
+    }
+    .tech-list li .icon { color: #00d4c8; flex-shrink: 0; font-weight: 700; }
+
+    /* ── DIFFERENTIATORS ── */
+    .diff-list { list-style: none; }
+    .diff-list li {
+      font-size: 9px;
+      color: #1a2a3a;
+      padding: 5px 0 5px 14px;
+      border-bottom: 1px dashed #e0eaf2;
+      position: relative;
+      line-height: 1.4;
+    }
+    .diff-list li::before {
+      content: '▸';
+      position: absolute;
+      left: 0;
+      color: #0099ff;
+      font-size: 9px;
+    }
+
+    /* ── VERIFICATION BADGE ── */
+    .verify-badge {
+      background: linear-gradient(135deg, #0d2240, #0a3355);
+      border-radius: 6px;
+      padding: 8px 12px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+    .verify-badge .vb-icon {
+      font-size: 22px;
+      flex-shrink: 0;
+    }
+    .verify-badge .vb-text h4 {
+      font-size: 9.5px;
+      font-weight: 700;
+      color: #00d4c8;
+    }
+    .verify-badge .vb-text p {
+      font-size: 8px;
+      color: #8fafc8;
+      line-height: 1.4;
+      margin-top: 2px;
+    }
+
+    /* ── FOOTER ── */
+    .footer {
+      background: #050d1f;
+      padding: 10px 32px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-top: 2px solid #00d4c8;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+    .footer p { font-size: 8.5px; color: #8fafc8; }
+    .footer a { color: #00d4c8; text-decoration: none; font-weight: 600; }
+    .footer .naics {
+      font-size: 8px;
+      color: #5a7590;
+    }
+
+    @media print {
+      body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <div class="header">
+    <div class="header-left">
+      <div class="logo-badge">TBF</div>
+      <div class="header-title">
+        <h1>Teixido-Boreal Forest Paradigm</h1>
+        <p>Structural Intelligence · IP Licensing &amp; Technical Subcontracting</p>
+      </div>
+    </div>
+    <div class="header-right">
+      <div class="tag">Non-Traditional · DoD Subcontractor</div><br>
+      <p>
+        John V. Teixido — Principal Investigator<br>
+        <a href="mailto:johnvteixido@gmail.com">johnvteixido@gmail.com</a> · (656) 212-8365<br>
+        <a href="https://github.com/johnvteixido/Teixido-Boreal-Forest-Paradigm">github.com/johnvteixido/Teixido-Boreal-Forest-Paradigm</a>
+      </p>
+    </div>
+  </div>
+
+  <!-- INTRO BAR -->
+  <div class="intro-bar">
+    <strong>Teixido-Boreal Forest (TBF)</strong> is a formally machine-verified (Rocq Prover v8.20) AI compute architecture that replaces power-hungry multiply-accumulate (MAC) operations with Tropical Add/Max logic — the <strong>Teixido-ISA</strong>. The result: the only DoD-defensible, radiation-hardened, zero-MAC inference core with a machine-checkable stability proof available for IP licensing today.
+  </div>
+
+  <!-- BODY -->
+  <div class="body">
+
+    <!-- LEFT COLUMN -->
+    <div class="col">
+
+      <div class="section-title">◈ Performance &amp; Validation Metrics</div>
+      <div class="metrics">
+        <div class="metric-card">
+          <div class="val">52.3<span class="unit">×</span></div>
+          <div class="desc">Gate reduction vs. standard MAC inference arrays</div>
+        </div>
+        <div class="metric-card">
+          <div class="val">37<span class="unit">×</span></div>
+          <div class="desc">Power efficiency per inference (SWaP-C critical)</div>
+        </div>
+        <div class="metric-card">
+          <div class="val">273<span class="unit">×</span></div>
+          <div class="desc">Model compression — 7B+ params fit in on-chip SRAM</div>
+        </div>
+        <div class="metric-card">
+          <div class="val">1.147<span class="unit">×</span></div>
+          <div class="desc">Antifragility ratio under 30% impulse noise (174,933 NASA solar events)</div>
+        </div>
+        <div class="metric-card">
+          <div class="val">97.1<span class="unit">%</span></div>
+          <div class="desc">Recall on zero-day DDoS vectors via Topological Contrast</div>
+        </div>
+        <div class="metric-card">
+          <div class="val">2.27<span class="unit">×</span></div>
+          <div class="desc">CNOT gate reduction on IBM/IonQ quantum architectures</div>
+        </div>
+      </div>
+
+      <div class="section-title">◈ Core Technologies</div>
+      <ul class="tech-list">
+        <li><span class="icon">▸</span><span><strong>Teixido-ISA (Zero-MAC):</strong> Tropical Add/Max logic replaces all MACs. No multiplications at inference time.</span></li>
+        <li><span class="icon">▸</span><span><strong>Topological Inhibitory Gating (TIG):</strong> Hardware-native noise gating via neighborhood consensus. Intrinsically radiation-hardened.</span></li>
+        <li><span class="icon">▸</span><span><strong>Teixido Constant (τ = −0.5):</strong> Machine-verified geometric stability boundary for sparse tree roots.</span></li>
+        <li><span class="icon">▸</span><span><strong>Log-Topological Normalization:</strong> Replaces BatchNorm/LayerNorm — topology-constrained, hardware-native.</span></li>
+        <li><span class="icon">▸</span><span><strong>165× Wire Length Reduction:</strong> Manhattan Geometry simulations — eliminates primary heat source in large-scale accelerators.</span></li>
+      </ul>
+
+      <div class="verify-badge">
+        <div class="vb-icon">✓</div>
+        <div class="vb-text">
+          <h4>Formally Machine-Verified · Rocq Prover v8.20</h4>
+          <p>The TBF stability proof is machine-checkable and audit-ready for DoD source selection review. Architecture is AGPL-3.0 open for inspection; Enterprise Edition available under commercial license.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- RIGHT COLUMN -->
+    <div class="col">
+
+      <div class="section-title">◈ MOSAIC Capability Area Alignment</div>
+      <table class="align-table">
+        <tr>
+          <th>MOSAIC Area</th>
+          <th>TBF Capability</th>
+          <th>Metric</th>
+        </tr>
+        <tr>
+          <td>Microelectronics Modernization</td>
+          <td>Zero-MAC Teixido-ISA core replaces hot FP chips</td>
+          <td class="check">37× power</td>
+        </tr>
+        <tr>
+          <td>HBM / Memory Independence</td>
+          <td>273× compression → 7B params on SRAM</td>
+          <td class="check">16× bus ↓</td>
+        </tr>
+        <tr>
+          <td>IP/Data Reuse &amp; Commonality</td>
+          <td>Node-portable RTL, dual-license framework</td>
+          <td class="check">Any CMOS</td>
+        </tr>
+        <tr>
+          <td>Digital Twin Integration</td>
+          <td>Antifragile AI: improves under noise</td>
+          <td class="check">1.147×</td>
+        </tr>
+        <tr>
+          <td>Radiation Hardening</td>
+          <td>TIG silences noise at logic level by topology</td>
+          <td class="check">Intrinsic</td>
+        </tr>
+        <tr>
+          <td>Cybersecurity</td>
+          <td>Topological Contrast for anomaly detection</td>
+          <td class="check">97.1% recall</td>
+        </tr>
+        <tr>
+          <td>Quantum Interconnects</td>
+          <td>TBF routing reduces CNOT counts</td>
+          <td class="check">2.27× / 6×</td>
+        </tr>
+        <tr>
+          <td>SWaP-C (Edge Platforms)</td>
+          <td>Smallest AI compute footprint available</td>
+          <td class="check">52.3× gates</td>
+        </tr>
+      </table>
+
+      <div class="section-title">◈ Licensing Options</div>
+      <div class="license-grid">
+        <div class="license-card">
+          <div class="lt">Integration License</div>
+          <div class="ld">RTL/Verilog, kernel tensors, integration docs. Single-program ASIC/FPGA use.</div>
+        </div>
+        <div class="license-card highlight">
+          <div class="lt">★ OTA Subcontract</div>
+          <div class="ld">IP license bundled with cost-plus LoE. Easiest path for MOSAIC primes.</div>
+        </div>
+        <div class="license-card">
+          <div class="lt">Royalty License</div>
+          <div class="ld">Per-unit royalty on fielded ASIC chips. Scales with production volume.</div>
+        </div>
+        <div class="license-card">
+          <div class="lt">Joint Development</div>
+          <div class="ld">TBF + prime co-develop hardware implementation. IP sharing negotiable.</div>
+        </div>
+      </div>
+
+      <div class="section-title">◈ Key Differentiators</div>
+      <ul class="diff-list">
+        <li><strong>Only formally-verified</strong> zero-MAC AI architecture in existence — machine-checkable proof</li>
+        <li><strong>Radiation-hardened by topology</strong> — no special fab process required, any foundry</li>
+        <li><strong>Antifragile</strong> — the only AI architecture that provably <em>improves</em> under adversarial noise</li>
+        <li><strong>HBM-independent</strong> — 7B+ parameter models on SRAM eliminates supply chain risk</li>
+        <li><strong>Quantum-native routing</strong> — 2.27× CNOT reduction for future-proof IBM/IonQ integration</li>
+        <li><strong>Published &amp; citable</strong> — GitHub-hosted, 72-commit history. Patent-pending architecture.</li>
+      </ul>
+
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    <p>
+      <strong style="color:#fff">John V. Teixido</strong> · Principal Investigator &amp; IP Owner ·
+      <a href="mailto:johnvteixido@gmail.com">johnvteixido@gmail.com</a> · (656) 212-8365
+    </p>
+    <p class="naics">
+      MOSAIC N0016426SNB54 · S2MARTS OTA · Non-Traditional Defense Contractor ·
+      <a href="https://github.com/johnvteixido/Teixido-Boreal-Forest-Paradigm">View Public Repository →</a>
+    </p>
+  </div>
+
+</body>
+</html>
